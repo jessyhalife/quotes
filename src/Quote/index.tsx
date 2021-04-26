@@ -18,7 +18,10 @@ const colors = [
   "#73A857",
 ];
 const Text = styled.div`
-  font-size: 2rem;
+  font-size: 1.5rem;
+  @media (min-width: 768px) {
+    font-size: 2rem;
+  }
   font-weight: 500;
 `;
 
@@ -33,7 +36,7 @@ const Container = styled.div`
   background-color: ${({ backgroundColor }: PropsContainer) =>
     backgroundColor || "#c4c4c4"};
   transition: background-color 0.8s ease;
-  width: 50rem;
+  max-width: 50rem;
 `;
 const Author = styled.div`
   font-size: 1rem;
