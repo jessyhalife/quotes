@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata:400,500");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inconsolata;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 1rem 4rem;
+}
